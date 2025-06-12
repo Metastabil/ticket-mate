@@ -1,0 +1,57 @@
+@import 'data-tables-overrides.css';
+@import 'variables.css';
+@import 'buttons.css';
+@import 'fonts.css';
+
+* { box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font: 400 normal 18px 'Open Sans', sans-serif;
+    background-color: var(--background);
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--dark-gray);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+nav a {
+    transition: background-color .3s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--white);
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 0 5px 0 0;
+}
+
+nav .logout {
+    background-color: var(--light-red);
+    color: var(--black);
+    float: right;
+}
+
+nav a:hover {
+    background-color: var(--background);
+}
+
+nav .logout:hover {
+    background-color: var(--dark-red)
+}
+
+main {
+    color: var(--white);
+    padding: 10px;
+}
+
+.title {
+    margin: 0 0 25px 0;
+}

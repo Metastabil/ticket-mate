@@ -1,0 +1,47 @@
+.dt-search label {
+    display: none;
+}
+
+.dt-input {
+    font: 400 normal 18px 'Open Sans', sans-serif;
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+    border: none !important;
+    outline: none;
+}
+
+.dt-input::placeholder {
+    color: var(--black);
+}
+
+thead tr {
+    background-color: var(--light-blue);
+    color: var(--black);
+}
+
+thead th {
+    font: 400 normal 18px 'Open Sans', sans-serif !important;
+}
+
+tbody td {
+    font: 400 normal 18px 'Open Sans', sans-serif !important;
+}
+
+.table-actions {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+}
+
+.dt-paging nav {
+    font: 400 normal 18px 'Open Sans', sans-serif !important;
+    background: var(--light-blue);
+}
+
+.dt-paging nav * {
+    font: 400 normal 14px 'Open Sans', sans-serif !important;
+}

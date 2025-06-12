@@ -25,6 +25,14 @@ return [
         'status' => 'Status',
         'users' => 'Benutzer'
     ],
+    'messages' => [
+        'success' => [
+            'saved' => 'Erfolgreich gespeichert.'
+        ],
+        'error' => [
+            'saved' => 'Fehler beim Speichern.'
+        ]
+    ],
     'users' => [
         'titles' => [
             'index' => 'Übersicht der Benutzer',

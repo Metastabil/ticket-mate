@@ -55,3 +55,31 @@ main {
 .title {
     margin: 0 0 25px 0;
 }
+
+.default-form {
+    width: 35%;
+}
+
+.default-form .input-wrapper {
+    margin: 0 0 10px 0;
+}
+
+.default-form label {
+    margin: 0 0 5px 0;
+    display: block;
+}
+
+.default-form label .required {
+    color: var(--light-red);
+}
+
+.default-form input,
+.default-form textarea,
+.default-form select {
+    font: 400 normal 18px 'Open Sans', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
